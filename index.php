@@ -64,4 +64,20 @@ $destacadas = [
     </div>
   </div>
 </section>
+
+<section class="mb-5">
+  <p class="eyebrow">Lo que dicen nuestros clientes</p>
+  <h2 class="section-title mb-4">Historias para compartir</h2>
+  <div class="row g-3">
+    <div class="col-md-4">
+      <div class="quote-card">“La masa es increíble y siempre llega caliente.”<strong>— Andrea Mesa.</strong></div>
+    </div>
+    <div class="col-md-4">
+      <div class="quote-card">“La cuatro quesos es mi nueva favorita.”<strong>— Pepe Ronni.</strong></div>
+    </div>
+    <div class="col-md-4">
+      <div class="quote-card">“Buen servicio, ingredientes frescos y sabor auténtico.”<strong>— Julio Cesar.</strong></div>
+    </div>
+  </div>
+</section>
 <?php require __DIR__ . '/includes/footer.php'; ?>
