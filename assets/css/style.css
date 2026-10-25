@@ -1,0 +1,194 @@
+:root {
+    --tomato: #b52d25;
+    --dark: #231d1a;
+    --gold: #f3bd54;
+    --cream: #fbf6ee
+}
+
+body {
+    background: var(--cream);
+    color: #2c2521;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif
+}
+
+.nav-bella {
+    background: #241c19
+}
+
+.navbar-brand {
+    letter-spacing: .2px
+}
+
+.nav-link {
+    color: #f9eee5 !important
+}
+
+.nav-link:hover {
+    color: var(--gold) !important
+}
+
+.hero {
+    background: linear-gradient(120deg, #2b211c, #5b2920);
+    color: #fff;
+    overflow: hidden
+}
+
+.text-gold {
+    color: var(--gold)
+}
+
+.hero-img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 1.25rem;
+    box-shadow: 0 15px 45px #0005
+}
+
+.section-title {
+    font-weight: 800;
+    letter-spacing: -.8px
+}
+
+.eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .75rem;
+    font-weight: 800;
+    color: var(--tomato);
+    margin-bottom: .5rem
+}
+
+.food-card {
+    border: 0;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 5px 22px #38271a0c;
+    transition: transform .2s, box-shadow .2s
+}
+
+.food-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px #38271a18
+}
+
+.food-card .card-img-top {
+    height: 205px;
+    object-fit: cover
+}
+
+.food-card .card-body {
+    padding: 1.25rem
+}
+
+.story {
+    background: #eee3d4
+}
+
+.quote-card,
+.branch-card,
+.form-panel,
+.invoice {
+    background: #fff;
+    border: 1px solid #eee3d8;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 5px 20px #38271a08
+}
+
+.quote-card {
+    height: 100%;
+    font-style: italic
+}
+
+.quote-card strong {
+    display: block;
+    margin-top: 1rem;
+    font-style: normal;
+    color: var(--tomato)
+}
+
+.footer-bella {
+    background: #241c19;
+    color: #f9eee5
+}
+
+.footer-bella hr {
+    border-color: #6c5b50
+}
+
+.category-title {
+    border-left: 5px solid var(--tomato);
+    padding-left: .8rem;
+    margin-bottom: 1rem
+}
+
+.price-table {
+    font-size: .9rem
+}
+
+.price-table th {
+    color: #6e625b
+}
+
+.option-row {
+    padding: .7rem .8rem;
+    border: 1px solid #eee3d8;
+    border-radius: .7rem;
+    background: #fff;
+    height: 100%
+}
+
+.option-row .form-check-input {
+    margin-top: .3rem
+}
+
+.form-control,
+.form-select {
+    border-color: #ddd0c4;
+    padding: .7rem
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #c75a40;
+    box-shadow: 0 0 0 .2rem #c75a4020
+}
+
+.btn-warning {
+    background: var(--gold);
+    border-color: var(--gold);
+    font-weight: 700
+}
+
+.btn-warning:hover {
+    background: #e7a92f;
+    border-color: #e7a92f
+}
+
+.branch-icon {
+    font-size: 1.7rem
+}
+
+.invoice {
+    border-top: 5px solid var(--tomato)
+}
+
+@media(max-width:767px) {
+    .hero-img {
+        height: 240px
+    }
+
+    .hero h1 {
+        font-size: 2.5rem
+    }
+
+    .section-title {
+        font-size: 1.8rem
+    }
+
+    .form-panel,
+    .invoice {
+        padding: 1rem
+    }
+}
