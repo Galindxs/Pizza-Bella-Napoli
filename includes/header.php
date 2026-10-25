@@ -1,7 +1,3 @@
-<?php
-if (session_status() !== PHP_SESSION_ACTIVE) session_start();
-$pageTitle = $pageTitle ?? 'Bella Napoli';
-?>
 <!doctype html>
 <html lang="es">
 
